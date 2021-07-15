@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+	width: 400px;
+	height: 400px;
+  border-radius: 5px;
+	overflow-y: auto;
+  border: 2px solid rgb(197, 195, 195);
+  box-shadow: 3px 4px 20px rgb(39, 38, 38);
+}
+.container{
+  display: flex;
+	justify-content: flex-start;
+	align-items: left;
+	background-color: rgb(71, 201, 110);
+	border-radius: 5px;
+	width: 300px;
+	margin: 2px 0px;
+	height: 100px;
+  padding: 10px;
+}
+h2{
+  margin: 10px 0;
+}
