@@ -1,16 +1,16 @@
+import React from 'react';
+import IncBut from './UseOfHooks';
 import "./App.css";
-import Button1 from "./button-1";
-import Button2 from "./button-2";
 
 function App() {
   return (
-    <div>
-      <Button1 />
-      <Button2 />
-      <Button2 />
-      <Button2 />
+    <div className="Inc_buttons">
+    <h3> Click the button to increment the value</h3>
+    <IncBut />
+    <IncBut />
+    <IncBut />
+    <IncBut />
     </div>
   );
-}
-
+};
 export default App;
