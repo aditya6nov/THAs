@@ -1,2 +1,2 @@
 # THA
-All THAs attaches in form of folders
+All THAs of frontend attaches in form of folders
